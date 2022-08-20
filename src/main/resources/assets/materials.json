@@ -1,0 +1,8 @@
+{
+  "ruby": {
+    "item": {
+      "type": "consumable",
+      "model": "item/ruby"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+example_category: #
+  icon: blzeemachines:ruby #
+  name: "menu.blzeemachines.all" #
+  priority: 0 #
+  items: #
+    - blzeemachines:ruby

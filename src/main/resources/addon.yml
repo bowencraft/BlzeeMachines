@@ -1,7 +1,7 @@
-id: example
-name: Example
+id: blzeemachines
+name: Blzeemachines
 version: "${project.version}"
-main: com.example.ExampleAddon
+main: com.bowencraft.blzeemachines
 novaVersion: "${nova.version}"
-author: ExampleAuthor
+author: Bo_Wen
 spigotResourceId: 12345
