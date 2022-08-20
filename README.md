@@ -1,2 +1,2 @@
-# Nova-Addon-Template
-Template for creating Nova addons
+# BlzeeMachines
+Addon for Nova, creating machines for blzee-hexoland.
