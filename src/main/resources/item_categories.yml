@@ -1,6 +1,12 @@
-example_category: #
-  icon: blzeemachines:ruby #
-  name: "menu.blzeemachines.all" #
-  priority: 0 #
-  items: #
+resource_category:
+  icon: blzeemachines:ruby
+  name: "menu.blzeemachines.misc"
+  priority: 0
+  items:
     - blzeemachines:ruby
+machines_category:
+  icon: blzeemachines:resource_producer
+  name: "menu.blzeemachines.machines"
+  priority: 1
+  items:
+    - blzeemachines:resource_producer

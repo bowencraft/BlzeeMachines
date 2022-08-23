@@ -1,4 +1,4 @@
-package com.bowencraft
+package com.bowencraft.blzeemachines
 
 import xyz.xenondevs.nova.material.FoodOptions
 import xyz.xenondevs.nova.material.NovaMaterialRegistry
@@ -10,7 +10,7 @@ object Items {
         blzeemachines,
         "ruby",
         FoodOptions(
-            consumeTime = 40, // 40 ticks = 2 second
+            consumeTime = 100, // 40 ticks = 2 second
             nutrition = 4,
             saturationModifier = 0.3f
         )

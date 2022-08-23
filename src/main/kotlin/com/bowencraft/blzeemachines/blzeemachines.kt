@@ -1,16 +1,15 @@
-package com.bowencraft
+package com.bowencraft.blzeemachines
 
 import xyz.xenondevs.nova.addon.Addon
-import xyz.xenondevs.nova.material.FoodOptions
-import xyz.xenondevs.nova.material.NovaMaterialRegistry
 
 object blzeemachines : Addon() {
     
     override fun init() {
         // Called when the addon is initialized.
         // Register NovaMaterials, RecipeTypes, etc. here
-        
+    
         Items.init()
+        Blocks.init()
         
     }
     

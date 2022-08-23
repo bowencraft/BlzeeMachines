@@ -1,7 +1,7 @@
 id: blzeemachines
 name: Blzeemachines
 version: "${project.version}"
-main: com.bowencraft.blzeemachines
+main: com.bowencraft.blzeemachines.blzeemachines
 novaVersion: "${nova.version}"
 author: Bo_Wen
 spigotResourceId: 12345
