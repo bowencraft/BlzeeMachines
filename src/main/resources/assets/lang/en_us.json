@@ -1,7 +1,7 @@
 {
   "item.blzeemachines.ruby": "Ruby",
-  "menu.blzeemachines.all": "BlzeeMachines",
-  "menu.blzeemachines.misc": "杂项",
-  "block.blzeemachines.resource_producer": "生产机",
-  "block.blzeemachines.test": "生产机"
+  "menu.blzeemachines.machines": "BlzeeMachines",
+  "menu.blzeemachines.misc": "Misc",
+  "block.blzeemachines.resource_producer": "Resource Producer",
+  "block.blzeemachines.steam_engine": "Steam Engine"
 }

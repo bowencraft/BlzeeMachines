@@ -1,7 +1,8 @@
 package com.bowencraft.blzeemachines
 
 // import com.bowencraft.blzeemachines.Machines.Producer
-import com.bowencraft.blzeemachines.Machines.Producer
+import com.bowencraft.blzeemachines.Machines.ResourceProducer
+import com.bowencraft.blzeemachines.Machines.SteamEngine
 import org.bukkit.Material
 import org.bukkit.Sound
 import xyz.xenondevs.nova.data.world.block.property.Directional
@@ -26,12 +27,9 @@ object Blocks {
         true //
     )
     
-
+    val RESOURCE_PRODUCER = registerTileEntity(blzeemachines, "resource_producer", STONE, ::ResourceProducer, properties = listOf(Directional.NORMAL))
+    val STEAM_ENGINE = registerTileEntity(blzeemachines, "steam_engine", STONE, ::SteamEngine, properties = listOf(Directional.NORMAL))
     
-    // val RESOURCE_PRODUCER = NovaMaterialRegistry.registerTileEntity(blzeemachines, "resource_producer", STONE, ::Producer, properties = listOf(Directional.NORMAL))
-    // val RESOURCE_PRODUCER = NovaMaterialRegistry.registerBlock(blzeemachines, "resource_producer", STONE)
-    // val TEST_MACHINE = NovaMaterialRegistry.registerBlock(blzeemachines, "testmachine", STONE)
-    val RESOURCE_PRODUCER = registerTileEntity(blzeemachines, "resource_producer", STONE, ::Producer, properties = listOf(Directional.NORMAL))
     fun init() = Unit
     
 }

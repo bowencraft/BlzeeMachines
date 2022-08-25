@@ -1,2 +1,7 @@
 capacity: 10000
 energy_per_tick: 1
+speed: 1
+tick_per_item: 20
+item_list:
+  - STONE:95
+  - IRON_ORE:5

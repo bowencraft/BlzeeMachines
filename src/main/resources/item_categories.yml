@@ -10,3 +10,4 @@ machines_category:
   priority: 1
   items:
     - blzeemachines:resource_producer
+    - blzeemachines:steam_engine

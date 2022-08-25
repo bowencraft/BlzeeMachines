@@ -47,6 +47,11 @@
             <version>1.19.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>de.studiocode.invui</groupId>
+            <artifactId>InvUI</artifactId>
+            <version>0.8-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <profiles>

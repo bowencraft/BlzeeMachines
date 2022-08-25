@@ -2,6 +2,6 @@
   "item.blzeemachines.ruby": "红宝石",
   "menu.blzeemachines.machines": "七彩机器",
   "menu.blzeemachines.misc": "杂项",
-  "block.blzeemachines.resource_producer": "生产机",
-  "block.blzeemachines.test": "生产机"
+  "block.blzeemachines.resource_producer": "资源生产机",
+  "block.blzeemachines.steam_engine": "蒸汽机"
 }
